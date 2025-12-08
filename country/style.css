@@ -1,0 +1,234 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+
+.kmap {
+    height: 320px;
+    position: absolute;
+    z-index: 10;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.kpin {
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 105px;
+    margin-left: 80px;
+}
+
+.kpin:hover {
+    background-color: white;
+    border: 4px solid orange;
+}
+
+.kpintwo {
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 190px;
+    margin-left: 180px;
+}
+
+
+.kpintwo:hover {
+    background-color: white;
+    border: 4px solid red;
+}
+
+.kpinthree {
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 216px;
+    margin-left: 145px;
+}
+
+
+.kpinthree:hover {
+    background-color: white;
+    border: 4px solid lightgreen;
+}
+
+.kpinfour {
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 187px;
+    margin-left: 150px;
+}
+
+
+.kpinfour:hover {
+    background-color: white;
+    border: 4px solid blueviolet;
+}
+
+
+.upin {
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 253px;
+    margin-left: 130px;
+}
+
+.upin:hover {
+    background-color: white;
+    border: 4px solid blue;
+}
+
+.upintwo {
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 290px;
+    margin-left: 158px;
+}
+
+.upintwo:hover {
+    background-color: white;
+    border: 4px solid deeppink;
+}
+
+.apin {
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 130px;
+    margin-left: 1330px;
+}
+
+.apin:hover {
+    background-color: white;
+    border: 4px solid green;
+}
+
+.cmap {
+    height: 320px;
+    position: absolute;
+    z-index: 10;
+    margin-top: 400px;
+    margin-left: 15px;
+}
+
+
+.amap {
+    height: 320px;
+    position: absolute;
+    z-index: 10;
+    margin-top: 400px;
+    margin-left: 1230px;
+}
+
+    background-color: #c7eafe;
+
+/*Div { 
+    Position: absolute;
+    Width: 90%;
+    Height: 10%
+    Background-color: gold;
+    Margin-top: 10;
+}
+
+*/
+img {
+    height: 80px;
+}
+
+.korea {
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 1;
+
+}
+
+.kpin:hover ~ .country .korea .target {
+    border: 3px solid orange;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.kpintwo:hover ~ .country .korea .targettwo {
+    border: 3px solid red;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.kpinthree:hover ~ .country .korea .targetthree {
+    border: 3px solid lightgreen;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.kpinfour:hover ~ .country .korea .targetfour {
+    border: 3px solid blueviolet;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.upin:hover ~ .country .usa .utarget {
+    border: 3px solid blue;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.upintwo:hover ~ .country .usa .utargettwo {
+    border: 3px solid deeppink;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.apin:hover ~ .country .usa .atarget {
+    border: 3px solid green;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.usa {
+    width: 100%;
+    background-color:  #95d4f4;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+figure.country {
+    text-align: center;
+    margin: auto;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 704px) {
+    
+}

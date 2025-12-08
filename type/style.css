@@ -1,0 +1,70 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+
+    
+    background-color: #c7eafe;
+
+    img {
+    height: 70px;
+}
+
+.paint {
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+
+}
+
+.sculp {
+    width: 100%;
+    background-color:  #95d4f4;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.draw {
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+figure.type {
+    text-align: center;
+    margin: auto;
+}
+
+figcaption {
+    margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 704px) {
+    
+}

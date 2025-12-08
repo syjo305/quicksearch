@@ -1,0 +1,98 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+
+    
+/*    background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/41447398/original_9e7d87e88f444d8ff4be1af30a6102fb.png?1764402106?bc=0");
+    background-size: cover;
+    background-position: center;
+    }
+*/
+
+    background-color: #c7eafe;
+
+
+img {
+    height: 65px;
+}
+
+.one {
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.two {
+    width: 100%;
+    background-color:  #95d4f4;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.three {
+    width: 100%;
+     background-color: aliceblue;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.four {
+    width: 100%;
+    background-color:  #95d4f4;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.five {
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+figure.year {
+    text-align: center;
+    margin: auto;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 704px) {
+    
+}
