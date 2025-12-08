@@ -11,16 +11,16 @@ html, body {
     height: 320px;
     position: absolute;
     z-index: 10;
-    margin-top: 40px;
-    margin-left: 15px;
+    margin-top: 2.6%;
+    margin-left: 1.2%;
 }
 
 .kpin {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 105px;
-    margin-left: 80px;
+    margin-top: 7%;
+    margin-left: 5.4%;
 }
 
 .kpin:hover {
@@ -114,8 +114,8 @@ html, body {
     height: 320px;
     position: absolute;
     z-index: 10;
-    margin-top: 400px;
-    margin-left: 15px;
+    margin-top: 27.2%;
+    margin-left: 1.2%;
 }
 
 
@@ -123,8 +123,8 @@ html, body {
     height: 320px;
     position: absolute;
     z-index: 10;
-    margin-top: 400px;
-    margin-left: 1230px;
+    margin-top: 27.2%;
+    margin-left: 83.5%;
 }
 
     background-color: #c7eafe;
