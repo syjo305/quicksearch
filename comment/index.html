@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>댓글 시스템 (삭제 기능 포함)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="comment-box">
+    <h3>Share your story 댓글 남기기</h3>
+    <textarea id="commentInput" placeholder="Add a comment 댓글을 입력하세요..."></textarea>
+    <button onclick="addComment()">등록</button>
+
+    <div class="comment-list" id="commentList"></div>
+</div>
+
+<script>
+    // 저장된 댓글 불러오기
+    function loadComments() {
+        const comments = JSON.parse(localStorage.getItem("comments") || "[]");
+        const list = document.getElementById("commentList");
+        list.innerHTML = "";
+
+        comments.forEach((text, index) => {
+            const div = document.createElement("div");
+            div.className = "comment";
+
+            // 댓글 텍스트
+            const span = document.createElement("span");
+            span.innerText = text;
+            div.appendChild(span);
+
+            // 삭제 버튼
+            const delBtn = document.createElement("button");
+            delBtn.innerText = "삭제";
+            delBtn.className = "delete-btn";
+            delBtn.onclick = function() {
+                deleteComment(index);
+            };
+            div.appendChild(delBtn);
+
+            list.appendChild(div);
+        });
+    }
+
+    // 댓글 추가
+    function addComment() {
+        const input = document.getElementById("commentInput");
+        const text = input.value.trim();
+
+        if (!text) {
+            alert("댓글을 입력해주세요!");
+            return;
+        }
+
+        const comments = JSON.parse(localStorage.getItem("comments") || "[]");
+        comments.push(text);
+        localStorage.setItem("comments", JSON.stringify(comments));
+
+        input.value = "";
+        loadComments();
+    }
+
+    // 댓글 삭제
+    function deleteComment(index) {
+        const comments = JSON.parse(localStorage.getItem("comments") || "[]");
+        comments.splice(index, 1); // 해당 댓글 삭제
+        localStorage.setItem("comments", JSON.stringify(comments));
+        loadComments();
+    }
+
+    // 페이지 로드 시 기존 댓글 표시
+    loadComments();
+</script>
+
+</body>
+</html>
