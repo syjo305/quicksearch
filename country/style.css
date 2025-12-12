@@ -11,16 +11,16 @@ html, body {
     height: 320px;
     position: absolute;
     z-index: 10;
-    margin-top: 2.6%;
-    margin-left: 1.2%;
+    top: 78px;
+    left: 18px;
 }
 
 .kpin {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 7%;
-    margin-left: 5.4%;
+    top: 145px;
+    left: 80px;
 }
 
 .kpin:hover {
@@ -32,8 +32,8 @@ html, body {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 190px;
-    margin-left: 180px;
+    top: 230px;
+    left: 180px;
 }
 
 
@@ -46,8 +46,8 @@ html, body {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 216px;
-    margin-left: 145px;
+    top: 255px;
+    left: 145px;
 }
 
 
@@ -60,8 +60,8 @@ html, body {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 187px;
-    margin-left: 150px;
+    top: 225px;
+    left: 150px;
 }
 
 
@@ -75,8 +75,8 @@ html, body {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 253px;
-    margin-left: 130px;
+    top: 650px;
+    left: 130px;
 }
 
 .upin:hover {
@@ -88,8 +88,8 @@ html, body {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 290px;
-    margin-left: 158px;
+    top: 685px;
+    left: 158px;
 }
 
 .upintwo:hover {
@@ -101,8 +101,8 @@ html, body {
     height: 30px;
     position: absolute;
     z-index: 20;
-    margin-top: 130px;
-    margin-left: 1330px;
+    top: 530px;
+    left: 1330px;
 }
 
 .apin:hover {
@@ -114,8 +114,8 @@ html, body {
     height: 320px;
     position: absolute;
     z-index: 10;
-    margin-top: 27.2%;
-    margin-left: 1.2%;
+    top: 438px;
+    left: 18px;
 }
 
 
@@ -123,8 +123,8 @@ html, body {
     height: 320px;
     position: absolute;
     z-index: 10;
-    margin-top: 27.2%;
-    margin-left: 83.5%;
+    top: 438px;
+    left: 1227px;
 }
 
     background-color: #c7eafe;
